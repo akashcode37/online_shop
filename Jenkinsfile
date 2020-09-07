@@ -20,7 +20,7 @@ node{
         */
         //docker.withRegistry( 'https://registry.hub.docker.com', 'DockerHubPassword' ) {
              
-             sh 'cat~/my_password.txt | docker login --username akash37 --password-stdin'
+             sh 'cat ~/my_password.txt | docker login --username akash37 --password-stdin'
              //sh 'sudo docker push upasanatestdocker/mysql'
              //sh 'sudo docker push upasanatestdocker/job1_web1.0'
              sh 'sudo docker push akash37/job1_web2.0'

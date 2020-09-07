@@ -23,7 +23,7 @@ node{
              sh 'cat ~/my_password.txt | docker login --username akash37 --password-stdin'
              //sh 'sudo docker push upasanatestdocker/mysql'
              //sh 'sudo docker push upasanatestdocker/job1_web1.0'
-             sh 'docker push p1_web'
+             sh 'docker push akash37/p1_web'
             // sh 'docker push upasanatestdocker/mysql'
           
     }
